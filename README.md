@@ -71,7 +71,7 @@ ls
 python3 run.py –epoch 20 –learning_rate 0.0002 –res_level 18 –lr_decay –draw
 ```
 
-4、使用保存的训练后模型在测试集上预测
+4、使用保存的训练后模型在测试集上预测（训练后的模型保存在saved_models目录下，便于上传仓库中把model进行了压缩，按步骤运行代码后将在saved_models目录下生成未压缩的完整模型）
 
 ```
 cd utils
